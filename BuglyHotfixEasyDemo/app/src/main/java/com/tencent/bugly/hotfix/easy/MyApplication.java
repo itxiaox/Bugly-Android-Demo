@@ -119,7 +119,7 @@ public class MyApplication extends Application {
 
 
         // 这里实现SDK初始化，appId替换成你的在Bugly平台申请的appId,调试时将第三个参数设置为true
-        Bugly.init(this, "900029763", true);
+        Bugly.init(this, "d4e3a46e6f", true);
         long end = System.currentTimeMillis();
         Log.e("init time--->", end - start + "ms");
 }
